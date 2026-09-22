@@ -753,7 +753,7 @@ export default function ServicesPage() {
                         </Link>
 
                         <a
-                            href="https://wa.me/254726947844"
+                            href="https://wa.me/254717078680"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center rounded-full border border-white/15 px-7 py-3.5 text-sm font-semibold transition-all duration-300 hover:-translate-y-1 hover:bg-white/10"
