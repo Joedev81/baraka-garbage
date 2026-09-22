@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Menu, Recycle, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 export default function Navbar() {
@@ -21,8 +21,12 @@ export default function Navbar() {
 
                 {/* LOGO */}
                 <Link href="/" className="flex items-center gap-3">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#176b3a] text-white">
-                        <Recycle size={22} />
+                    <div className="flex h-12 w-12 items-center justify-center overflow-hidden rounded-xl bg-[#f1f6f2]">
+                        <img
+                            src="/logo/logo.jpeg"
+                            alt="Baraka Garbage Services"
+                            className="h-full w-full object-contain"
+                        />
                     </div>
 
                     <div>
@@ -42,7 +46,8 @@ export default function Navbar() {
                         <Link
                             key={link.href}
                             href={link.href}
-                            className="transition hover:text-[#176b3a]">
+                            className="transition hover:text-[#176b3a]"
+                        >
                             {link.name}
                         </Link>
                     ))}
@@ -53,7 +58,8 @@ export default function Navbar() {
                     href="https://wa.me/254726947844"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hidden rounded-full bg-[#176b3a] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#12572f] md:block">
+                    className="hidden rounded-full bg-[#176b3a] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#12572f] md:block"
+                >
                     WhatsApp Us
                 </a>
 
@@ -83,7 +89,7 @@ export default function Navbar() {
                         ))}
 
                         <a
-                            href="https://wa.me/2547226947844"
+                            href="https://wa.me/254726947844"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="mt-2 rounded-xl bg-[#176b3a] px-4 py-3 text-center text-sm font-semibold text-white"

@@ -285,11 +285,11 @@ Please confirm the pickup details. Thank you.`;
                             className="mt-8 flex flex-col gap-3 sm:flex-row"
                         >
                             <a
-                                href="tel:0726947844"
+                                href="tel:0717078680"
                                 className="inline-flex items-center justify-center gap-2 rounded-full bg-[#67c98b] px-6 py-3.5 text-sm font-bold text-[#122019] shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-white hover:shadow-xl"
                             >
                                 <Phone size={17} />
-                                Call 0726 947 844
+                                Call 0717 078 680
                             </a>
 
                             <a

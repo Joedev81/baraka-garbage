@@ -468,10 +468,11 @@ export default function AboutPage() {
             >
               <div className="group relative aspect-[4/3] overflow-hidden bg-[#d4e8d8]">
                 <Image
-                  src="/team/ceo.jfif"
+                  src="/team/ceo.jpeg"
                   alt="Baraka Garbage Services CEO"
                   fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  className="object-cover object-top"
+                  sizes="(max-width: 768px) 100vw, 400px"
                 />
 
                 <div className="absolute inset-0 bg-gradient-to-t from-[#122019]/50 via-transparent to-transparent opacity-70" />
@@ -513,7 +514,7 @@ export default function AboutPage() {
               >
                 <div className="relative aspect-[4/3] overflow-hidden bg-[#d0e6d5]">
                   <Image
-                    src="/team/operations.jfif"
+                    src="/team/operation.jpeg"
                     alt="Baraka Garbage Services Operations and Customer Service"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -550,7 +551,7 @@ export default function AboutPage() {
               >
                 <div className="relative aspect-[4/3] overflow-hidden bg-[#d0e6d5]">
                   <Image
-                    src="/team/developer.jfif"
+                    src="/team/developer.jpeg"
                     alt="Baraka Garbage Services Software Developer"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -588,7 +589,7 @@ export default function AboutPage() {
               >
                 <div className="relative aspect-[4/3] overflow-hidden bg-[#d0e6d5]">
                   <Image
-                    src="/team/ground-team.jpg"
+                    src="/team/ground-team.jpeg"
                     alt="Baraka Garbage Services Ground Operations Team"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -973,10 +974,10 @@ export default function AboutPage() {
               </Link>
 
               <a
-                href="tel:0726947844"
+                href="tel:0717078680"
                 className="rounded-full border border-[#c5d9ca] bg-[#f7f9f6] px-7 py-3.5 text-sm font-semibold text-gray-900 transition-all duration-300 hover:-translate-y-1 hover:border-[#176b3a] hover:text-[#176b3a] hover:shadow-md"
               >
-                Call 0726 947 844
+                Call 0717 078 680
               </a>
             </motion.div>
           </div>
