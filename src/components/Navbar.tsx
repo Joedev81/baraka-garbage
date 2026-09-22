@@ -55,7 +55,7 @@ export default function Navbar() {
 
                 {/* DESKTOP WHATSAPP */}
                 <a
-                    href="https://wa.me/254726947844"
+                    href="https://wa.me/254717078680"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hidden rounded-full bg-[#176b3a] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#12572f] md:block"
@@ -89,7 +89,7 @@ export default function Navbar() {
                         ))}
 
                         <a
-                            href="https://wa.me/254726947844"
+                            href="https://wa.me/254717078680"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="mt-2 rounded-xl bg-[#176b3a] px-4 py-3 text-center text-sm font-semibold text-white"

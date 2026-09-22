@@ -115,7 +115,7 @@ Additional Notes: ${formData.notes || "None"}
 
 Please confirm the pickup details. Thank you.`;
 
-        const whatsappUrl = `https://wa.me/254726947844?text=${encodeURIComponent(
+        const whatsappUrl = `https://wa.me/254717078680?text=${encodeURIComponent(
             message
         )}`;
 
@@ -661,7 +661,7 @@ Please confirm the pickup details. Thank you.`;
                                 </a>
 
                                 <a
-                                    href="https://wa.me/254726947844"
+                                    href="https://wa.me/254717078680"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center gap-3 text-sm font-semibold text-[#176b3a] transition-colors hover:text-[#12572f]"
@@ -761,7 +761,7 @@ Please confirm the pickup details. Thank you.`;
                         className="mt-8 flex flex-col justify-center gap-3 sm:flex-row"
                     >
                         <a
-                            href="https://wa.me/254726947844"
+                            href="https://wa.me/254717078680"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-bold text-[#176b3a] transition-all duration-300 hover:-translate-y-1 hover:bg-[#e8f3ea] hover:shadow-xl"
