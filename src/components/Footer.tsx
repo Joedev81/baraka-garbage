@@ -42,7 +42,7 @@ export default function Footer() {
 
                             {/* FACEBOOK */}
                             <a
-                                href="https://www.facebook.com/"
+                                href="https://www.facebook.com/@barakagarbageservices"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="Facebook"
