@@ -622,25 +622,37 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ========================================================= */}
-      {/* TESTIMONIALS */}
-      {/* ========================================================= */}
+      {/* ========================================================= /}
+{/ TESTIMONIALS /}
+{/ ========================================================= */}
 
       <section className="relative overflow-hidden bg-[#122019] px-6 py-20 lg:px-8 lg:py-28">
+        {/* BACKGROUND GLOW */}
         <motion.div
           animate={{
-            scale: [1, 1.15, 1],
-            opacity: [0.05, 0.12, 0.05],
+            scale: [1, 1.2, 1],
+            opacity: [0.04, 0.1, 0.04],
           }}
           transition={{
-            duration: 8,
+            duration: 10,
             repeat: Infinity,
             ease: "easeInOut",
           }}
-          className="pointer-events-none absolute -left-40 top-20 h-96 w-96 rounded-full bg-[#176b3a] blur-3xl"
+          className="pointer-events-none absolute -left-40 top-10 h-[28rem] w-[28rem] rounded-full bg-[#176b3a] blur-3xl"
+        /><motion.div
+          animate={{
+            scale: [1, 1.15, 1],
+            opacity: [0.03, 0.08, 0.03],
+          }}
+          transition={{
+            duration: 12,
+            repeat: Infinity,
+            ease: "easeInOut",
+          }}
+          className="pointer-events-none absolute -right-40 bottom-0 h-[26rem] w-[26rem] rounded-full bg-[#67c98b] blur-3xl"
         />
 
-        <div className="relative mx-auto max-w-7xl">
+        <div className="relative mx-auto max-w-7xl">{/* HEADER */}
           <motion.div
             variants={staggerContainer}
             initial="hidden"
@@ -652,25 +664,28 @@ export default function AboutPage() {
               variants={fadeUp}
               className="flex items-center justify-center gap-2 text-sm font-bold uppercase tracking-[0.18em] text-[#67c98b]"
             >
-              <Star size={17} />
+              <Star size={17} fill="currentColor" />
               Customer Testimonials
             </motion.p>
 
             <motion.h2
               variants={fadeUp}
-              className="mt-5 text-3xl font-bold tracking-tight text-white sm:text-4xl"
+              className="mt-5 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl"
             >
               What our customers say.
             </motion.h2>
 
             <motion.p
               variants={fadeUp}
-              className="mt-4 leading-7 text-white/60"
+              className="mx-auto mt-5 max-w-xl leading-7 text-white/60"
             >
               We value the trust of the homes and businesses we serve.
+              Your experience helps us continue delivering cleaner spaces
+              and reliable service.
             </motion.p>
           </motion.div>
 
+          {/* TESTIMONIAL CARDS */}
           <motion.div
             variants={staggerContainer}
             initial="hidden"
@@ -678,11 +693,13 @@ export default function AboutPage() {
             viewport={{ once: true, amount: 0.15 }}
             className="mt-14 grid gap-7 md:grid-cols-3"
           >
-            {/* Testimonial 1 */}
+
+            {/* TESTIMONIAL 1 */}
             <motion.div
               variants={scaleIn}
-              whileHover={{ y: -8 }}
-              className="group overflow-hidden rounded-3xl border border-[#cfe3d3] bg-[#f0f7f1] shadow-sm transition-shadow duration-500 hover:shadow-xl"
+              whileHover={{ y: -10 }}
+              transition={{ duration: 0.35 }}
+              className="group overflow-hidden rounded-3xl border border-[#67c98b]/20 bg-[#edf7ef] shadow-lg transition-shadow duration-500 hover:shadow-2xl"
             >
               <div className="relative aspect-[16/10] overflow-hidden bg-[#d4e8d8]">
                 <Image
@@ -691,9 +708,17 @@ export default function AboutPage() {
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                 />
+
+                <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
+
+                <div className="absolute bottom-4 left-4 rounded-full bg-[#176b3a] px-3 py-1 text-xs font-semibold text-white">
+                  Customer
+                </div>
               </div>
 
               <div className="p-7">
+
+                {/* STARS */}
                 <div className="flex gap-1 text-[#176b3a]">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <motion.div
@@ -711,25 +736,40 @@ export default function AboutPage() {
                   ))}
                 </div>
 
-                <p className="mt-6 leading-7 text-gray-600">
+                {/* QUOTE */}
+                <div className="mt-5 text-4xl font-serif leading-none text-[#176b3a]/20">
+                  “
+                </div>
+
+                <p className="-mt-2 leading-7 text-gray-600">
                   “Add the genuine customer testimonial here.”
                 </p>
 
-                <div className="mt-7 border-t border-[#cfe3d3] pt-5">
-                  <p className="font-bold">Customer Name</p>
+                {/* CUSTOMER */}
+                <div className="mt-7 flex items-center gap-3 border-t border-[#cfe3d3] pt-5">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#176b3a] text-sm font-bold text-white">
+                    C
+                  </div>
 
-                  <p className="mt-1 text-sm text-gray-500">
-                    Kitengela Resident
-                  </p>
+                  <div>
+                    <p className="font-bold text-[#172019]">
+                      Customer Name
+                    </p>
+
+                    <p className="text-sm text-gray-500">
+                      Kitengela Resident
+                    </p>
+                  </div>
                 </div>
               </div>
             </motion.div>
 
-            {/* Testimonial 2 */}
+            {/* TESTIMONIAL 2 */}
             <motion.div
               variants={scaleIn}
-              whileHover={{ y: -8 }}
-              className="group overflow-hidden rounded-3xl border border-[#cfe3d3] bg-[#e3f1e6] shadow-sm transition-shadow duration-500 hover:shadow-xl"
+              whileHover={{ y: -10 }}
+              transition={{ duration: 0.35 }}
+              className="group overflow-hidden rounded-3xl border border-[#67c98b]/20 bg-[#e3f1e6] shadow-lg transition-shadow duration-500 hover:shadow-2xl"
             >
               <div className="relative aspect-[16/10] overflow-hidden bg-[#d0e6d5]">
                 <Image
@@ -738,9 +778,17 @@ export default function AboutPage() {
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                 />
+
+                <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
+
+                <div className="absolute bottom-4 left-4 rounded-full bg-[#176b3a] px-3 py-1 text-xs font-semibold text-white">
+                  Customer
+                </div>
               </div>
 
               <div className="p-7">
+
+                {/* STARS */}
                 <div className="flex gap-1 text-[#176b3a]">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <motion.div
@@ -758,25 +806,40 @@ export default function AboutPage() {
                   ))}
                 </div>
 
-                <p className="mt-6 leading-7 text-gray-600">
+                {/* QUOTE */}
+                <div className="mt-5 text-4xl font-serif leading-none text-[#176b3a]/20">
+                  “
+                </div>
+
+                <p className="-mt-2 leading-7 text-gray-600">
                   “Add the genuine customer testimonial here.”
                 </p>
 
-                <div className="mt-7 border-t border-[#cfe3d3] pt-5">
-                  <p className="font-bold">Customer Name</p>
+                {/* CUSTOMER */}
+                <div className="mt-7 flex items-center gap-3 border-t border-[#cfe3d3] pt-5">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#176b3a] text-sm font-bold text-white">
+                    C
+                  </div>
 
-                  <p className="mt-1 text-sm text-gray-500">
-                    Local Business Owner
-                  </p>
+                  <div>
+                    <p className="font-bold text-[#172019]">
+                      Customer Name
+                    </p>
+
+                    <p className="text-sm text-gray-500">
+                      Local Business Owner
+                    </p>
+                  </div>
                 </div>
               </div>
             </motion.div>
 
-            {/* Testimonial 3 */}
+            {/* TESTIMONIAL 3 */}
             <motion.div
               variants={scaleIn}
-              whileHover={{ y: -8 }}
-              className="group overflow-hidden rounded-3xl border border-[#cfe3d3] bg-[#e0f0e3] shadow-sm transition-shadow duration-500 hover:shadow-xl"
+              whileHover={{ y: -10 }}
+              transition={{ duration: 0.35 }}
+              className="group overflow-hidden rounded-3xl border border-[#67c98b]/20 bg-[#e0f0e3] shadow-lg transition-shadow duration-500 hover:shadow-2xl"
             >
               <div className="relative aspect-[16/10] overflow-hidden bg-[#cbded0]">
                 <Image
@@ -785,9 +848,17 @@ export default function AboutPage() {
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                 />
+
+                <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
+
+                <div className="absolute bottom-4 left-4 rounded-full bg-[#176b3a] px-3 py-1 text-xs font-semibold text-white">
+                  Customer
+                </div>
               </div>
 
               <div className="p-7">
+
+                {/* STARS */}
                 <div className="flex gap-1 text-[#176b3a]">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <motion.div
@@ -805,20 +876,56 @@ export default function AboutPage() {
                   ))}
                 </div>
 
-                <p className="mt-6 leading-7 text-gray-600">
+                {/* QUOTE */}
+                <div className="mt-5 text-4xl font-serif leading-none text-[#176b3a]/20">
+                  “
+                </div>
+
+                <p className="-mt-2 leading-7 text-gray-600">
                   “Add the genuine customer testimonial here.”
                 </p>
 
-                <div className="mt-7 border-t border-[#cfe3d3] pt-5">
-                  <p className="font-bold">Customer Name</p>
+                {/* CUSTOMER */}
+                <div className="mt-7 flex items-center gap-3 border-t border-[#cfe3d3] pt-5">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#176b3a] text-sm font-bold text-white">
+                    C
+                  </div>
 
-                  <p className="mt-1 text-sm text-gray-500">
-                    Baraka Customer
-                  </p>
+                  <div>
+                    <p className="font-bold text-[#172019]">
+                      Customer Name
+                    </p>
+
+                    <p className="text-sm text-gray-500">
+                      Baraka Customer
+                    </p>
+                  </div>
                 </div>
               </div>
             </motion.div>
+
           </motion.div>
+
+          {/* BOTTOM CTA */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="mt-14 text-center"
+          >
+            <p className="text-sm text-white/50">
+              Have you used our services?
+            </p>
+
+            <a
+              href="/contact"
+              className="mt-3 inline-flex items-center font-semibold text-[#67c98b] transition hover:text-white"
+            >
+              We'd love to hear from you →
+            </a>
+          </motion.div>
+
         </div>
       </section>
 
