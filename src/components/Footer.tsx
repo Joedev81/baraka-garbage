@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <footer className="bg-[#122019] text-white">
             <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-                <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+                <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-5">
 
                     {/* BRAND */}
                     <div className="lg:col-span-2">
@@ -53,13 +53,15 @@ export default function Footer() {
 
                             {/* TIKTOK */}
                             <a
-                               href="https://www.tiktok.com/@1barakagarbageservice"
-                               target="_blank"
-                               rel="noopener noreferrer"
-                               aria-label="TikTok"
-                               className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 transition hover:bg-white/10"
+                                href="https://www.tiktok.com/@1barakagarbageservice"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="TikTok"
+                                className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 transition hover:bg-white/10"
                             >
-                                <span className="text-sm font-bold"></span>
+                                <span className="text-sm font-bold">
+                                    ♪
+                                </span>
                             </a>
 
                             {/* INSTAGRAM */}
@@ -182,6 +184,36 @@ export default function Footer() {
                                 </span>
                             </div>
 
+                        </div>
+                    </div>
+
+                    {/* LEGAL */}
+                    <div>
+                        <h3 className="text-sm font-bold uppercase tracking-wider">
+                            Legal
+                        </h3>
+
+                        <div className="mt-5 flex flex-col gap-3 text-sm text-white/60">
+                            <Link
+                                href="/faqs"
+                                className="transition hover:text-white"
+                            >
+                                FAQs
+                            </Link>
+
+                            <Link
+                                href="/privacy-policy"
+                                className="transition hover:text-white"
+                            >
+                                Privacy Policy
+                            </Link>
+
+                            <Link
+                                href="/terms-of-service"
+                                className="transition hover:text-white"
+                            >
+                                Terms of Service
+                            </Link>
                         </div>
                     </div>
 

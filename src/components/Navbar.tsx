@@ -16,7 +16,7 @@ export default function Navbar() {
     ];
 
     return (
-        <header className="sticky top-0 z-50 border-b border-black/5 bg-white/90 backdrop-blur-xl">
+        <header className="sticky top-0 z-50 border-b border-black/5 bg-white/90 text-[#172019] backdrop-blur-xl">
             <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
 
                 {/* LOGO */}
@@ -41,7 +41,7 @@ export default function Navbar() {
                 </Link>
 
                 {/* DESKTOP NAVIGATION */}
-                <nav className="hidden items-center gap-8 text-sm font-medium md:flex">
+                <nav className="hidden items-center gap-8 text-sm font-medium text-[#172019] md:flex">
                     {links.map((link) => (
                         <Link
                             key={link.href}
