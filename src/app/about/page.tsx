@@ -484,7 +484,7 @@ export default function AboutPage() {
                 </p>
 
                 <h3 className="mt-2 text-2xl font-bold text-white">
-                  CEO
+                  Sally Nyambura
                 </h3>
 
                 <p className="mt-1 text-sm font-semibold text-[#67c98b]">
@@ -514,7 +514,7 @@ export default function AboutPage() {
               >
                 <div className="relative aspect-[4/3] overflow-hidden bg-[#d0e6d5]">
                   <Image
-                    src="/team/operation.jpeg"
+                    src="/team/customer.jpeg"
                     alt="Baraka Garbage Services Operations and Customer Service"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -525,11 +525,11 @@ export default function AboutPage() {
 
                 <div className="p-5 text-center">
                   <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-[#67c98b]">
-                    Customer Service
+                    Operations & Customer Service
                   </p>
 
                   <h3 className="mt-2 text-lg font-bold leading-tight text-white">
-                    Operations & Customer Service
+                    Robinson Kinyanjui
                   </h3>
 
                   <p className="mt-1 text-xs font-semibold text-[#67c98b]">
@@ -566,7 +566,7 @@ export default function AboutPage() {
                   </p>
 
                   <h3 className="mt-2 text-lg font-bold leading-tight text-[#172019]">
-                    Software Developer
+                    Joe Mucheru
                   </h3>
 
                   <p className="mt-1 text-xs font-semibold text-[#176b3a]">
