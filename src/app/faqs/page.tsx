@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 const faqs = [
     {
         question: "What areas does Baraka Garbage Services cover?",
-        answer: "We provide garbage collection services in Kitengela and surrounding areas. If you are unsure whether your location is covered, contact us and we will be happy to assist.",
+        answer: "We provide garbage collection services in Kitengela, Kajiado County, Machakos County and surrounding areas. If you are unsure whether your location is covered, contact us and we will be happy to assist.",
     },
     {
         question: "How can i request a garbage pickup?",
@@ -31,8 +31,8 @@ const faqs = [
         answer: "The cost depends on factors such as location, collection frequency and the amount or type of waste. Contact us for a quotation based on your specific needs.",
     },
     {
-        question: "What types of waste so you collect?",
-        answer: "We primarily handle general household and commercial garbage. For please contact us first so we advise you on whether we can provide the appropriate service.",
+        question: "What types of waste do you collect?",
+        answer: "We primarily handle general household, sanitary waste, hazardous waste and commercial garbage. For please contact us first so we advise you on whether we can provide the appropriate service.",
     },
     {
         question: "How do I contact Baraka Garbage Services?",
