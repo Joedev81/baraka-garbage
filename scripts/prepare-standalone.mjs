@@ -4,7 +4,7 @@
 // the traced node_modules, but NOT the static assets or the public/ folder.
 // This copies them into place so .next/standalone is fully self-contained.
 //
-// Run via npm run build:cpanel. Upload the contents of .next/standalone to
+// Run via npm run build:cPanel. Upload the contents of .next/standalone to
 // your cPanel app root and set the startup file to server.js.
 
 import { cp, access } from "node:fs/promises";

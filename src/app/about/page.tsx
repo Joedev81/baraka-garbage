@@ -742,7 +742,8 @@ export default function AboutPage() {
                 </div>
 
                 <p className="-mt-2 leading-7 text-gray-600">
-                  “Add the genuine customer testimonial here.”
+                  “Baraka Garbage Services has been a reliable and professional waste management partner, consistently
+                  providing timely, efficient and environmentally responsible waste collection and disposal.”
                 </p>
 
                 {/* CUSTOMER */}
@@ -753,11 +754,11 @@ export default function AboutPage() {
 
                   <div>
                     <p className="font-bold text-[#172019]">
-                      Customer Name
+                      London Distillers
                     </p>
 
                     <p className="text-sm text-gray-500">
-                      Kitengela Resident
+                      Kitengela's Company
                     </p>
                   </div>
                 </div>
@@ -812,7 +813,9 @@ export default function AboutPage() {
                 </div>
 
                 <p className="-mt-2 leading-7 text-gray-600">
-                  “Add the genuine customer testimonial here.”
+                  “We are pleased to recommend Baraka Garbage Service, a company that has been known to us for the past
+                  10 years and throughout this period a high level of competence, professionalism and reliability in its operations.
+                  Based on our longstanding association with the company, we confidently recommend Baraka for any suitable service opportunities.”
                 </p>
 
                 {/* CUSTOMER */}
@@ -823,11 +826,11 @@ export default function AboutPage() {
 
                   <div>
                     <p className="font-bold text-[#172019]">
-                      Customer Name
+                      Early Shine Cleaning Services
                     </p>
 
                     <p className="text-sm text-gray-500">
-                      Local Business Owner
+                      Business Owner
                     </p>
                   </div>
                 </div>
@@ -882,7 +885,8 @@ export default function AboutPage() {
                 </div>
 
                 <p className="-mt-2 leading-7 text-gray-600">
-                  “Add the genuine customer testimonial here.”
+                  “I'm really happy with Baraka Garbage, they are reliable, arrive on time and do a great job keeping our surroundings clean.
+                  The team is friendly and easy to work with and i would definitely recommend their services to anyone looking for reliable garbage collection.”
                 </p>
 
                 {/* CUSTOMER */}

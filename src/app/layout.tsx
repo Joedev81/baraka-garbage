@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Baraka Garbage Services",
-  description: "Professional garbage collection and polythene solutions in Kitengela.",
+  title: "Baraka Garbage Services | Garbage Collection in Kitengela",
+  description: "Baraka Garbage Services provides reliable garbage collection and garbage polythene solutions in Kitengela. Contact us today for garbage pickup services.",
   icons: {
     icon: "/logo/logo.jpeg",
   },
