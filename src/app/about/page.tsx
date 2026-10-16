@@ -897,7 +897,7 @@ export default function AboutPage() {
 
                   <div>
                     <p className="font-bold text-[#172019]">
-                      Customer Name
+                     Wilberforce Moi
                     </p>
 
                     <p className="text-sm text-gray-500">
